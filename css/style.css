@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: rgb(208, 255, 239);
+    background-image: url(https://i.imgur.com/F8BKmQJ.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 900px;
+}
+.main-game {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.genius {
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'verde vermelho'
+    'amarelo azul';
+    grid-gap: 5px;
+    border: 4px dashed #0e4116;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    padding: 0;
+    
+}
+
+.blue {
+    grid-area: azul;
+    background-color: rgb(2, 2, 151);
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: rgb(219, 9, 9);
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: rgb(212, 212, 7);
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: rgb(10, 212, 10);
+    border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.7;
+}
+
+.contacts_list{
+    margin: 200px;
+    list-style-type: square;
+    padding-left: 25px;
+    font-style: italic;
+    font-size: small;  
+}
