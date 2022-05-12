@@ -1,6 +1,6 @@
 # Projeto Gênesis
 
-## Nesse projeto, o desafio proposto pela Digital Innovation One, foi criar um jogo Gênesis utilizando as ferramentas:
+✨ Para a realização deste projeto, foi proposto a criação de um jogo Gênesis utilizando as ferramentas:
 - HTML 
 - CSS 
 - Javascript 
@@ -9,4 +9,5 @@
 ### Para jogar ou visualizar entre no link abaixo:
 - https://keelcoutinho.github.io/ProjetoGenesis/
 
+#### Obrigada pela visita! 😄
 
